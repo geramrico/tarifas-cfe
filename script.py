@@ -8,7 +8,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Tarifas de CFE",
     page_icon="🔋",
-    # layout="wide",
+    layout="wide",
     initial_sidebar_state="expanded"
 )
 
@@ -142,7 +142,11 @@ with info_expander:
     ### Para calcular tu recibo de CFE:
     1. Asegura primero haber consultado una tarifa siguiendo los pasos anteriores
     2. Inserta tu consumo de energía en horario base, intermedia y punta en kWh
-    2. Inserta tu demanda en horario base, intermedia y punta en kW
+    3. Inserta tu demanda en horario base, intermedia y punta en kW
+    4. Haz clic en "Calcular mi recibo"
+
+    **Nota:** No considera cálculo de cargo y/o bonificación por factor de potencia.
+    
 
     '''
 
@@ -161,7 +165,7 @@ with about_expander:
         - Frontend: Streamlit
 
 
-        Si tienes necesidad o la idea de un proyecto, escríbeme y con gusto te ayudo con lo que pueda.
+        Si tienes necesidad o idea de un proyecto, escríbeme y con gusto te ayudo con lo que pueda.
 
         -GM
 
