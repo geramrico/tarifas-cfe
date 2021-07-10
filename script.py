@@ -20,7 +20,7 @@ options_tariffs = ['GDMTH', 'DIST', 'DIT']
 
 @st.cache
 def get_data():
-    data = pd.read_csv('TFSB.csv')
+    data = pd.read_csv('TFSB2.csv')
     #Replace NaN with dashes "-" for readability
     data = data.replace(np.nan,'-',regex=True)
     #Get only GDMTH DIST and DIT Tariffs
@@ -120,7 +120,7 @@ selected_division = st.sidebar.radio('Seleccion una división:', options_divisio
 # MAIN BODY
 #Header and welcome text
 '''
-## Tarifas de Suministro Básico
+## Tarifas de Suministro Básico :mexico:
 Comisión Federal de Electricidad
 '''
 
