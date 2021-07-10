@@ -20,7 +20,7 @@ options_tariffs = ['GDMTH', 'DIST', 'DIT']
 
 @st.cache
 def get_data():
-    data = pd.read_csv('TFSB2.csv')
+    data = pd.read_csv('TFSB.csv')
     #Replace NaN with dashes "-" for readability
     data = data.replace(np.nan,'-',regex=True)
     #Get only GDMTH DIST and DIT Tariffs
