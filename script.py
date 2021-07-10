@@ -219,7 +219,6 @@ if has_ran:
     
     if submit_button:
         
-        st.write('ALL OK')
         st.write('Cargo por Energía: ',energy_charge, 'MXN')
         st.write('Cargo por Capacidad: ',capacity_charge, 'MXN')
         st.write('Cargo por Distribución: ',distribution_charge, 'MXN')
