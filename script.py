@@ -120,7 +120,7 @@ selected_division = st.sidebar.radio('Seleccion una división:', options_divisio
 # MAIN BODY
 #Header and welcome text
 '''
-## Tarifas de Suministro Básico :mexico:
+## Tarifas de Suministro Básico
 Comisión Federal de Electricidad
 '''
 
