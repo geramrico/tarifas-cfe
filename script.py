@@ -227,6 +227,6 @@ if has_ran:
         st.write('Cargo por Capacidad: ',capacity_charge, 'MXN')
         st.write('Cargo por Distribución: ',distribution_charge, 'MXN')
         st.write('Cargo Fijo Mensual: ',tariffs[5], 'MXN')
-        st.write('TOTAL: ',energy_charge+capacity_charge+distribution_charge+tariffs[5], 'MXN')
+        st.write('TOTAL: ',float(energy_charge+capacity_charge+distribution_charge+tariffs[5],2), 'MXN')
 
 
